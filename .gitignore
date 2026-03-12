@@ -1,0 +1,26 @@
+# Magento core folders not needed in git
+/vendor/
+/generated/
+/var/
+/pub/static/
+/pub/media/catalog/product/cache/
+
+# Node / frontend
+/node_modules/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+/.idea
+/.vscode
+
+# Environment
+/app/etc/env.php
+
+# Composer
+composer.lock
